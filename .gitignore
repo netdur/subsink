@@ -1,0 +1,6 @@
+.idea
+build
+.dart_tool
+.packages
+pubspec.lock
+subsink.iml
