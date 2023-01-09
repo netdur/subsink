@@ -1,7 +1,6 @@
 import 'dart:async';
 
 class NumberCreator {
-
   NumberCreator() {
     Timer.periodic(Duration(seconds: 1), (t) {
       _controller.sink.add(_count);
@@ -15,5 +14,4 @@ class NumberCreator {
   Stream<int> get stream => _controller.stream;
 
   void close() => _controller.close();
-
 }

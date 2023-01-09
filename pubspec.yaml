@@ -1,11 +1,10 @@
 name: subsink
 description: stream subscription sink for canceling gracefully in a component.
-version: 0.0.1
-author: adel boussaken
+version: 0.0.2
 homepage: https://github.com/netdur/subsink
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
